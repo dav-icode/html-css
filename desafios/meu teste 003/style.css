@@ -1,0 +1,94 @@
+@charset "UTF_*";
+
+* {
+  margin: auto;
+}
+
+
+/* Tudo */
+body {
+  background-color: rgba(92, 197, 145, 0.781);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* cabeçalho */
+header {
+  background: linear-gradient(to bottom, rgb(0, 255, 149), rgb(1, 114, 67));
+  padding: 16px 0px 16px 0px;
+}
+header > h1 {
+  padding: 10px;
+  text-align: center;
+  height: 2em;
+  color: white;
+}
+header > p {
+  text-align: center;
+  height: 10px;
+  color: white;
+}
+header > nav > ul {
+  padding: 36px;
+  display: flex;
+  text-align: center;
+  gap: 3em;
+  list-style: none;
+}
+
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+  height: 16px;
+}
+header > nav > ul > li > a:hover {
+  text-decoration: overline;
+  color: rgba(143, 236, 143, 0.541);
+  transform: scale(2);
+}
+
+
+/* corpo */
+main {
+  background-color: white;
+  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0px 15em 0px 15em;
+  box-shadow: 0px 0px 20px 0px black;
+}
+main > h1 {
+  text-align: left;
+  padding: 16px;
+}
+.mascote > h2 {
+  border-image-source:('borda.png');
+  border-image-repeat: repeat;
+  border-image-slice: 20;
+  margin: 0px 16px 0px 16px;
+  text-align: left;
+  padding: 16px;
+}
+main > p {
+  text-align: center;
+}
+.dan-droids{
+  display: flex;
+  margin: 0px 16px 0px 16px;
+  padding: 10px;
+  gap: 3em;
+}
+.irina{
+  display: flex;
+  margin: 0px 16px 0px 16px;
+  padding: 10px;
+  gap: 3em;
+}
+
+
+/* rodape */
+footer > p {
+  background-color: rgb(22, 53, 1);
+  color: white;
+  text-align: center;
+}

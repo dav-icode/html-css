@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:'work sans' Arial, Helvetica, sans-serif;
+            /* colocamos mais de uma fonte pq se uma não funcionar, a outra vai ser usada */
+            /* medidas absolutas
+            cm, mm, in, px, pt, pc
+            medidas relativas
+            em, ex, rem, vw, vw, vh, %
+            
+            recomendação da w3c: usar em e px.
+            16px geralmente = 1em
+            normalmente o font size é 16px
+            */
+            font-size: 1em ;
+            font-weight: normal ;
+            font-style: italic;
+            /* text-decoration: underline: sublinhado */
+            /* weight:peso.
+            width: largura.
+            height: altura. */
+            /* pesos: lighter normal bold bolder; Pode ser indicada por numeros de 100 a 900. */
+        }
+        h1{
+            font-family: 'work sans' sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* short hand
+            
+            - font style -> font weight -> font size -> font family */
+            font: italic bolder 3em 'work sans', sans-serif;  
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius, vel hic illo minus mollitia accusantium qui dicta, unde vitae soluta. Neque pariatur quis ullam velit beatae, necessitatibus quod totam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi nostrum nemo quidem cumque quod assumenda modi odit repellat. Itaque rem maxime explicabo, voluptatibus recusandae dolor voluptatem mollitia aut harum nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consectetur distinctio fugit exercitationem magni nihil asperiores labore, sunt error ullam earum, necessitatibus est inventore quam repellendus dolor. Sit, cum corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor doloremque, inventore repellat accusamus et, explicabo at numquam in tempore ea odit modi vero suscipit corporis? Odio ad quibusdam corporis consequatur!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, odit nulla! Temporibus autem sint esse animi. Quod harum voluptate quas nesciunt accusantium ullam corporis suscipit unde, nihil enim quo dolor!</p>
+    <h2>subtítulo do exercicío</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, velit quisquam neque tempore ducimus corporis minima? Nam quas, atque magni sequi, iure necessitatibus excepturi iste ducimus earum beatae ex nemo?</p>
+</body>
+</html>
